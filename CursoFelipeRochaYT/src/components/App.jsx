@@ -14,14 +14,6 @@ function App() { // Função principal do componente
     JSON.parse(localStorage.getItem('Tasks')) || []
   );
 
-  /*useEffect(() => {
-    localStorage.setItem('Tasks', JSON.stringify(Tasks) || [])}, [Tasks]);
-
-  const updateTasks = (newTasks) => {
-    setTasks(newTasks);
-  }*/
-
-
   // Função para lidar com o clique em uma tarefa
   function onTaskClick(id) {
     // Cria um novo array de tarefas mapeando o array original
